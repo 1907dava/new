@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Example</title>
+</head>
+<body>
+    <h1>Learn Playing Piano at Home</h1>
+    <img src="/d:/contoh/website-template/assets/images/Learn Playing Piano at Home , Pianoforall _.jpg" alt="Learn Playing Piano at Home">
+    
+    <h1>Another Image</h1>
+    <img src="/d:/contoh/website-template/assets/images/360_F_906756646_PWuMUBh0RFuCR2HvAoIB5ddQaOvW1wMd.jpg" alt="Another Image">
+</body>
+</html>

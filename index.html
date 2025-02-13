@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKEMIDI</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            background-image: url('/website-template/360_F_906756646_PWuMUBh0RFuCR2HvAoIB5ddQaOvW1wMd.jpg');            background-position: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+            color: white;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        header {
+            background-color: #000080; /* Navy blue */
+            color: white;
+            padding: 10px 0;
+        }
+        header .container {
+            display: flex;
+            transition: all 0.5s ease-in-out;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        header nav ul li {
+            margin-left: 20px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .product p {
+            color: #000080; /* Navy blue */
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .product button {
+            background-color: #000080; /* Navy blue */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .product button:hover {
+            background-color: #000066; /* Darker navy blue */
+        }
+        footer {
+            background-color: #000000; /* Black */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .transaction-form {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .transaction-form h2 {
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            color: #000080; /* Navy blue */
+        }
+        .transaction-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .transaction-form input, .transaction-form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .transaction-form button {
+            background-color: #000080; /* Navy blue */
+            color: rgb(221, 31, 31);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .transaction-form button:hover {
+            background-color: #000066; /* Darker navy blue */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="file:///c:/Users/ASUS/OneDrive/ドキュメント/web/download-removebg-preview.png" alt="Logo" style="width: 180px; height: auto; margin-right: 50px;">
+            <h1>OKEMIDI</h1>
+            <nav>
+                <ul>
+                    <li><a href="file:///D:/contoh/website-template/src/home.html" class="nav-link">Home</a></li>
+                    <li><a href="file:///D:/contoh/website-template/src/produk%20123.html" class="nav-link">Products</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="file://D:/.vscode/kontak.html" class="nav-link">Contact</a></li>
+                    <li><a href="file:///D:/contoh/website-template/src/transaksi.html" class="nav-link">Transaction</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <style>
+        .nav-link {
+            position: relative;
+            display: inline-block;
+            padding: 10px 0;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+        .nav-link:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+    </style>
+
+    <section id="home" style="background: linear-gradient(to right, #000080); color: white; padding: 50px 0;"></section>
+        <div class="container" style="text-align: center;">
+            <h2 style="font-size: 2.5em; margin-bottom: 20px;">Welcome to My</h2>
+            <p style="font-size: 1.2em;">Find the best products at the best prices.</p>
+        </div>
+    </section>
+
+
+    <section id="about" style="background-color: #fa2525;"></section>
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Okemidi adalah situs web yang menyediakan berbagai macam sampling, style, dan tutorial untuk keyboard Yamaha⁽¹⁾. Kami fokus pada memberikan kualitas terbaik untuk memenuhi kebutuhan para penggemar musik elektronik dan keyboard⁽¹⁾. Dengan update sampling terbaru dan panduan yang mudah diikuti, kami berkomitmen untuk membantu Anda mencapai performa musik yang optimal⁽¹⁾.
+                Jika Anda ingin mengetahui lebih lanjut atau mengunduh sampling dan style terbaru, silakan kunjungi situs kami dan jangan ragu untuk menghubungi kami jika Anda memerlukan bantuan lebih lanjut.
+                .</p>
+        </div>
+    </section>
+    <section class="calm-music">
+        <div class="container">
+            <h2>KARAOKE NEMU NADA B#M</h2>
+            <audio controls>
+                <source src="file:///d:/audio editanku/Gilga_Sahid_-_Nemu_Karaoke_Nada_Pria__Matursuwun_Gusti_Mpun_Maringi_Seng_Gemati_(256k)_B♭ Minor_128.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 OKEMIDI. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
